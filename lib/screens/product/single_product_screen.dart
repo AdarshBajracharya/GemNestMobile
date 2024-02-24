@@ -1,7 +1,7 @@
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
-import 'package:ecommerce/models/favorite_model.dart';
-import 'package:ecommerce/viewmodels/auth_viewmodel.dart';
+import 'package:gem_nest_mobile/models/favorite_model.dart';
+import 'package:gem_nest_mobile/viewmodels/auth_viewmodel.dart';
 import 'package:provider/provider.dart';
 
 import '../../repositories/cart_repositories.dart';

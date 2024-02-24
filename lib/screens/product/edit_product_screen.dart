@@ -1,7 +1,7 @@
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 import 'package:image_picker/image_picker.dart';
-import 'package:ecommerce/models/product_model.dart';
+import 'package:gem_nest_mobile/models/product_model.dart';
 import 'package:provider/provider.dart';
 
 import '../../services/file_upload.dart';
