@@ -44,30 +44,30 @@ class CategoryRepository {
   List<CategoryModel> makeCategory() {
     return [
       CategoryModel(
-          categoryName: "Mobile Phones and Accessories",
+          categoryName: "Rings",
           status: "active",
           imageUrl:
-              "5.imimg.com/data5/SELLER/Default/2023/4/302728285/ZH/WS/BR/69896726/mobile-phone-accessories.png"),
+              "https://ajaffe.com/pub/media/wysiwyg/Engagaement_1280_x_586_pixels_01_Sep_2022-new.jpg"),
       CategoryModel(
-          categoryName: "Automobile",
+          categoryName: "Necklace",
           status: "active",
           imageUrl:
-              "https://i2-prod.dailyrecord.co.uk/incoming/article25217715.ece/ALTERNATES/s615/0_Daily-Record-Road-Record.jpg"),
+              "https://enamelcopenhagen.com/cdn/shop/products/Necklace_Elie-Necklaces-N83G-925S_GP-1_2048x.jpg"),
       CategoryModel(
-          categoryName: "Apparel",
+          categoryName: "Bracelet",
           status: "active",
           imageUrl:
-              "https://www.techprevue.com/wp-content/uploads/2016/05/online-apparel-business.jpg"),
+              "https://lindseyleighjewelry.com/cdn/shop/products/dainty-fancy-shape-diamond-bracelet-482065.jpg"),
       CategoryModel(
-          categoryName: "Computers and Peripherals",
+          categoryName: "Bar",
           status: "active",
           imageUrl:
-              "https://i2.wp.com/d3d2ir91ztzaym.cloudfront.net/uploads/2020/07/computer-peripherals.jpeg"),
+              "https://previews.123rf.com/images/ravital/ravital1601/ravital160100230/51059025-rows-of-silver-bars-and-one-of-gold-business-and-financial-background.jpg"),
       CategoryModel(
-          categoryName: "Music Instruments",
+          categoryName: "Ear Rings",
           status: "active",
           imageUrl:
-              "https://img.texasmonthly.com/2013/04/ESSENTIALS_680X382.jpg"),
+          "https://www.tanishq.co.in/on/demandware.static/-/Sites-Tanishq-product-catalog/default/dwc3480ccf/images/hi-res/50F1D1SFSAGA09_1.jpg"),
     ];
   }
 }

@@ -81,8 +81,8 @@ class _RegisterScreenState extends State<RegisterScreen> {
                 children: [
                   Image.asset(
                     "assets/images/logo.png",
-                    height: 100,
-                    width: 100,
+                    height: 200,
+                    width: 200,
                   ),
                   SizedBox(height: 10,),
                   TextFormField(
@@ -282,6 +282,7 @@ class _RegisterScreenState extends State<RegisterScreen> {
                     width: double.infinity,
                     child: ElevatedButton(
                         style: ButtonStyle(
+                          backgroundColor: MaterialStateProperty.all<Color>(Colors.yellow),
                           shape: MaterialStateProperty.all<RoundedRectangleBorder>(
                               RoundedRectangleBorder(
                                   borderRadius: BorderRadius.circular(20),
@@ -307,7 +308,7 @@ class _RegisterScreenState extends State<RegisterScreen> {
                         onTap: (){
                           Navigator.of(context).pop();
                         },
-                          child: Text("Sign in", style: TextStyle(color: Colors.blue),))
+                          child: Text("Sign in", style: TextStyle(color: Colors.orangeAccent),))
                     ],
                   ),
 
@@ -329,7 +330,7 @@ class ValidateSignup{
     return null;
   }
   static String? emailValidate(String? value){
-    
+
     final RegExp emailValid =
       RegExp(r"^[a-zA-Z0-9.a-zA-Z0-9.!#$%&'*+-/=?^_`{|}~]+@[a-zA-Z0-9]+\.[a-zA-Z]+");
       if(value == null || value.isEmpty ){

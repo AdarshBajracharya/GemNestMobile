@@ -61,7 +61,7 @@ class _HomeScreenState extends State<HomeScreen> {
                     children: [
 
                       Image.asset(
-                        "assets/images/banner.jpg",
+                        "assets/images/banner.png",
                         height: 200,
                         width: double.infinity,
                         fit: BoxFit.fill,
@@ -257,7 +257,7 @@ class _HomeScreenState extends State<HomeScreen> {
                           ),
                           Text(
                             "Rs. "+e.productPrice.toString(),
-                            style: TextStyle(fontSize: 15, color: Colors.green),
+                            style: TextStyle(fontSize: 15, color: Colors.black),
                             textAlign: TextAlign.center,
                             maxLines: 2,
                           ),
